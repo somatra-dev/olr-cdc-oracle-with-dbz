@@ -1,0 +1,52 @@
+{
+  "version": "1.8.7",
+  "log-level": 4,
+  "source": [
+    {
+      "alias": "SOURCE",
+      "name": "ORACLE",
+      "reader": {
+        "type": "online",
+        "user": "c##dbzuser",
+        "password": "dbz",
+        "server": "//cdc-oracle-olr:1521/ORCLPDB1"
+      },
+      "format": {
+        "type": "json",
+        "column": 2,
+        "db": 3,
+        "interval-dts": 9,
+        "interval-ytm": 4,
+        "message": 2,
+        "rid": 1,
+        "schema": 7,
+        "timestamp-all": 1,
+        "scn-type": 1,
+        "unknown-type": 1,
+        "xid": 1
+      },
+      "memory": {
+        "min-mb": 64,
+        "max-mb": 1024
+      },
+      "filter": {
+        "table": [
+          {
+            "owner": "OLR_DB",
+            "table": "PRODUCT"
+          }
+        ]
+      }
+    }
+  ],
+  "target": [
+    {
+      "alias": "DEBEZIUM",
+      "source": "SOURCE",
+      "writer": {
+        "type": "network",
+        "uri": "0.0.0.0:9000"
+      }
+    }
+  ]
+}
