@@ -793,6 +793,38 @@ networks:
 ```
 
 ---
+## Connector Configuration
+### Source Connector
+```url: POST http://localhost:8083/connectors```
+```json
+{
+  "name": "oracle-olr-connector-45",
+  "config": {
+    "connector.class": "io.debezium.connector.oracle.OracleConnector",
+    "tasks.max": "1",
+    "topic.prefix": "oracle.olr",
+    "database.hostname": "cdc-oracle-olr",
+    "database.port": "1521",
+    "database.user": "c##dbzuser",
+    "database.password": "dbz",
+    "database.dbname": "ORCLCDB",
+    "database.pdb.name": "ORCLPDB1",
+    "schema.history.internal.kafka.bootstrap.servers": "kafka-1:19093,kafka-2:19093,kafka-3:19093",
+    "key.converter": "io.confluent.connect.avro.AvroConverter",
+    "value.converter": "io.confluent.connect.avro.AvroConverter",
+    "key.converter.schema.registry.url": "http://schema-registry:8081",
+    "value.converter.schema.registry.url": "http://schema-registry:8081",
+    "schema.history.internal.kafka.topic": "schema-changes.oracle",
+    "database.connection.adapter": "olr",
+    "openlogreplicator.host": "openlogreplicator",
+    "openlogreplicator.port": "9000",
+    "openlogreplicator.source": "ORACLE",   
+    "snapshot.mode": "initial",
+    "decimal.handling.mode": "string",
+    "time.precision.mode": "adaptive"
+  }
+}
+```
 
 ## Verification
 
