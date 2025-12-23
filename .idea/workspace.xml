@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6f3aa89-fd46-4db6-b4cc-5b239d7bade8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/db-forest-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/data_source_mapping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data_source_mapping.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/olr-checkpoint/ORACLE-chkpt-2159018.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/olr-checkpoint/ORACLE-chkpt-2161533.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/olr-checkpoint/ORACLE-chkpt-2164411.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/olr-checkpoint/ORACLE-chkpt-2165693.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/olr-checkpoint/ORACLE-chkpt-2166743.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/olr-checkpoint/ORACLE-chkpt-2167376.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/olr-checkpoint/ORACLE-chkpt.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/olr-log/OpenLogReplicator.err" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/olr-log/OpenLogReplicator.err" beforeDir="false" afterPath="$PROJECT_DIR$/olr-log/OpenLogReplicator.err" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,28 +22,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SHELLCHECK.PATH": "/home/oogway/.local/share/JetBrains/IntelliJIdea2025.3/Shell Script/shellcheck",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/oogway/Documents/Spring-Mic/Debezuim-Kafka/ORL-Oracle",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SHELLCHECK.PATH&quot;: &quot;/home/oogway/.local/share/JetBrains/IntelliJIdea2025.3/Shell Script/shellcheck&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/oogway/Documents/Spring-Mic/Debezuim-Kafka/cdc-postgres-to-elastic&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql",
-      "oracle"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;,
+      &quot;oracle&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -77,7 +66,8 @@
       <updated>1766365219013</updated>
       <workItem from="1766365220315" duration="12413000" />
       <workItem from="1766399917615" duration="313000" />
-      <workItem from="1766459577277" duration="5432000" />
+      <workItem from="1766459577277" duration="6045000" />
+      <workItem from="1766492411811" duration="4750000" />
     </task>
     <servers />
   </component>

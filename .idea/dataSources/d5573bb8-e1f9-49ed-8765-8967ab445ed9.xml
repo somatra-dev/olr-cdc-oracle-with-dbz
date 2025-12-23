@@ -3,9 +3,9 @@
   <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.54">
     <root id="1">
       <DateStyle>mdy</DateStyle>
-      <IntrospectionStateNumber>745</IntrospectionStateNumber>
+      <IntrospectionStateNumber>750</IntrospectionStateNumber>
       <ServerVersion>16.11</ServerVersion>
-      <StartupTime>1766464842</StartupTime>
+      <StartupTime>1766504732</StartupTime>
       <TimeZones>true ACDT
 true ACSST
 false ACST
@@ -700,7 +700,7 @@ false posixrules
 13276||10|C|G
 13276||-9223372036854775808|U|G
 13276||10|U|G</Grants>
-      <IntrospectionStateNumber>745</IntrospectionStateNumber>
+      <IntrospectionStateNumber>750</IntrospectionStateNumber>
       <ObjectId>5</ObjectId>
       <OwnerName>postgres</OwnerName>
     </database>
@@ -4120,11 +4120,11 @@ false posixrules
       <AutoIntrospectionLevel>3</AutoIntrospectionLevel>
       <Comment>standard public schema</Comment>
       <Current>1</Current>
-      <LastIntrospectionL1Xid>745</LastIntrospectionL1Xid>
-      <LastIntrospectionL2Xid>745</LastIntrospectionL2Xid>
-      <LastIntrospectionL3Xid>745</LastIntrospectionL3Xid>
+      <LastIntrospectionL1Xid>750</LastIntrospectionL1Xid>
+      <LastIntrospectionL2Xid>750</LastIntrospectionL2Xid>
+      <LastIntrospectionL3Xid>750</LastIntrospectionL3Xid>
       <LastIntrospectionLevel>3</LastIntrospectionLevel>
-      <LastIntrospectionLocalTimestamp>2025-12-23.07:42:01</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2025-12-23.16:09:35</LastIntrospectionLocalTimestamp>
       <ObjectId>2200</ObjectId>
       <StateNumber>524</StateNumber>
       <OwnerName>pg_database_owner</OwnerName>
@@ -4132,59 +4132,59 @@ false posixrules
     <table id="264" parent="263" name="products">
       <DetailsLevel>2</DetailsLevel>
       <ObjectId>16388</ObjectId>
-      <StateNumber>743</StateNumber>
+      <StateNumber>742</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
     <column id="265" parent="264" name="ID">
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <StateNumber>743</StateNumber>
+      <StateNumber>742</StateNumber>
       <StoredType>text|0s</StoredType>
       <TypeId>25</TypeId>
     </column>
     <column id="266" parent="264" name="NAME">
       <NotNull>1</NotNull>
       <Position>2</Position>
-      <StateNumber>743</StateNumber>
+      <StateNumber>742</StateNumber>
       <StoredType>text|0s</StoredType>
       <TypeId>25</TypeId>
     </column>
     <column id="267" parent="264" name="DESCRIPTION">
       <Position>3</Position>
-      <StateNumber>743</StateNumber>
+      <StateNumber>742</StateNumber>
       <StoredType>text|0s</StoredType>
       <TypeId>25</TypeId>
     </column>
     <column id="268" parent="264" name="PRICE">
       <NotNull>1</NotNull>
       <Position>4</Position>
-      <StateNumber>743</StateNumber>
+      <StateNumber>742</StateNumber>
       <StoredType>text|0s</StoredType>
       <TypeId>25</TypeId>
     </column>
     <column id="269" parent="264" name="STOCK">
       <DefaultExpression>&apos;0&apos;::text</DefaultExpression>
       <Position>5</Position>
-      <StateNumber>743</StateNumber>
+      <StateNumber>742</StateNumber>
       <StoredType>text|0s</StoredType>
       <TypeId>25</TypeId>
     </column>
     <column id="270" parent="264" name="CREATED_DATE">
       <Position>6</Position>
-      <StateNumber>743</StateNumber>
+      <StateNumber>742</StateNumber>
       <StoredType>bigint|0s</StoredType>
       <TypeId>20</TypeId>
     </column>
     <column id="271" parent="264" name="UPDATED_DATE">
       <Position>7</Position>
-      <StateNumber>743</StateNumber>
+      <StateNumber>742</StateNumber>
       <StoredType>bigint|0s</StoredType>
       <TypeId>20</TypeId>
     </column>
     <column id="272" parent="264" name="__deleted">
       <Position>8</Position>
-      <StateNumber>743</StateNumber>
+      <StateNumber>742</StateNumber>
       <StoredType>text|0s</StoredType>
       <TypeId>25</TypeId>
     </column>
@@ -4193,7 +4193,7 @@ false posixrules
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16394</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>743</StateNumber>
+      <StateNumber>742</StateNumber>
       <Unique>1</Unique>
       <AccessMethodId>403</AccessMethodId>
       <CollationNames>default</CollationNames>
@@ -4204,7 +4204,7 @@ false posixrules
       <NameSurrogate>1</NameSurrogate>
       <ObjectId>16395</ObjectId>
       <Primary>1</Primary>
-      <StateNumber>743</StateNumber>
+      <StateNumber>742</StateNumber>
       <UnderlyingIndexId>16394</UnderlyingIndexId>
     </key>
   </database-model>
