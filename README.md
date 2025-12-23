@@ -825,6 +825,31 @@ networks:
   }
 }
 ```
+### Sink Connector
+```url: PUT http://localhost:8083/connectors/sink-olr-103/config```
+```json
+{
+    "connector.class": "io.confluent.connect.jdbc.JdbcSinkConnector",
+    "connection.url": "jdbc:postgresql://cdc-postgres:5432/",
+    "connection.user": "postgres",
+    "connection.password": "postgres",
+    "topics": "oracle.olr.OLR_DB.PRODUCT",
+    "tasks.max": "1",
+    "auto.create": "true",
+    "auto.evolve": "true",
+    "insert.mode": "upsert",
+    "pk.mode": "record_key",
+    "pk.fields": "ID",
+    "table.name.format": "products",
+    "transforms": "unwrap",
+    "delete.enabled": "true",
+    "transforms.unwrap.type": "io.debezium.transforms.ExtractNewRecordState",
+    "transforms.unwrap.drop.tombstones": "false",
+    "transforms.unwrap.delete.handling.mode": "rewrite"
+}
+```
+
+---
 
 ## Verification
 

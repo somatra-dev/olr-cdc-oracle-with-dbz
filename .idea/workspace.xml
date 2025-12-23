@@ -2,10 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6f3aa89-fd46-4db6-b4cc-5b239d7bade8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/db-forest-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/data_source_mapping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data_source_mapping.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/olr-checkpoint/ORACLE-chkpt-2159018.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/olr-checkpoint/ORACLE-chkpt-2161533.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/olr-checkpoint/ORACLE-chkpt-2164411.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/olr-checkpoint/ORACLE-chkpt-2165693.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/olr-checkpoint/ORACLE-chkpt-2166743.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/olr-checkpoint/ORACLE-chkpt-2167376.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/olr-checkpoint/ORACLE-chkpt.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/olr-log/OpenLogReplicator.err" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,12 +44,13 @@
     "SHELLCHECK.PATH": "/home/oogway/.local/share/JetBrains/IntelliJIdea2025.3/Shell Script/shellcheck",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/oogway/Documents/Debezuim-Kafka/ORL-Oracle(no DBZ)",
+    "last_opened_file_path": "/home/oogway/Documents/Spring-Mic/Debezuim-Kafka/ORL-Oracle",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
+      "postgresql",
       "oracle"
     ]
   }
@@ -65,7 +76,8 @@
       <option name="presentableId" value="Default" />
       <updated>1766365219013</updated>
       <workItem from="1766365220315" duration="12413000" />
-      <workItem from="1766399917615" duration="99000" />
+      <workItem from="1766399917615" duration="313000" />
+      <workItem from="1766459577277" duration="5432000" />
     </task>
     <servers />
   </component>
